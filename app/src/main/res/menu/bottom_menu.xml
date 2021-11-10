@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/thoughts"
+        android:title="Thoughts"
+        android:icon="@drawable/ic_books"
+
+        />
+
+    <item
+        android:id="@+id/logger"
+        android:title="Logger"
+        android:icon="@drawable/ic_book"
+        />
+</menu>

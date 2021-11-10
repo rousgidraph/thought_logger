@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/logger">
+
+    <fragment
+        android:id="@+id/logger"
+        android:name="com.example.log_thoughts.ui.logging"
+        android:label="Logger"
+        tools:layout="@layout/fragment_logger" />
+    <fragment
+        android:id="@+id/thoughts"
+        android:name="com.example.log_thoughts.ui.thoughts"
+        android:label="Thoughts"
+        tools:layout="@layout/fragment_thoughts" />
+</navigation>
